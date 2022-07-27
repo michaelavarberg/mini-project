@@ -5,16 +5,27 @@
 header {
   text-align: center;
 }
+
 li {
   display: inline;
-  background-color: blue;
+  background-color: rgb(156, 199, 160);
   color: white;
   margin: 10px;
   padding: 10px;
+  text-align: left;
 }
 
 section {
   background-color: lightblue;
   width: 70%;
-  margin: 0 auto;
+  border: 10px solid black;
+  margin: 5px auto;
+}
+
+form {
+  margin: 10px;
+}
+
+#figure-container {
+  text-align: center;
 }
